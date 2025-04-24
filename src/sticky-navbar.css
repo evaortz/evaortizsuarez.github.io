@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    font-weight: 500;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    animation: fadeIn 0.2s ease-out 0.5s forwards;
+    opacity: 0;
+    font-size: 1em;
+    background-color: #faf4ecdd;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 0.15em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    color: #D73F3F;
+}
+
+.logo {
+    margin-right: 3em;
+    margin: 5px 10px;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

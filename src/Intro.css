@@ -1,0 +1,60 @@
+.boceto-uno {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  z-index: 0;
+  height: 70%;
+  display: flex;
+  
+}
+
+.svg-one {
+  width: 5em;
+  height: auto;
+  cursor: pointer;
+}
+
+.svg-one path {
+  stroke-width: 0.05;
+  stroke: black;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro-text {
+  text-align: center;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  position: relative;
+	height: 100vh;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.text {
+	font-weight: 400;
+	margin: 0 10px;
+	font-size: 2em;
+}
+@media (max-width: 320px) {
+  .boceto-uno {
+    width: 30%;
+  }
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,23 @@
+.underlined-svg {
+    height: 0.35em;
+    position: absolute;
+}
+
+.underlined-text {
+    text-decoration: none;
+    color: black;
+}
+
+.underlined-text:hover {
+    color: #D73F3F;
+}
+
+.underlined-text span {
+    white-space: nowrap;
+}
+
+.underlined-svg path {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    opacity: 0;
+}
